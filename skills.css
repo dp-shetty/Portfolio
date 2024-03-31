@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+
+  span{
+    color:hsl(283.33,76.6%,63.14%);
+  }
+
+}
+
+body{
+ /* border: 2px solid red; */
+   background-color: hsl(260,35.59%,11.57%);
+  margin-top: -110px;
+  padding-top: 50px;
+  /* background-image: url(./images/download.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed; */
+}
+
+
+
+.brand-logo span{
+ color: hsl(283.33,76.6%,63.14%);
+}
+nav{
+  /* border: 2px solid red;  */
+  background-color: hsl(260,69.23%,5.1%);
+  padding-top: 16px;
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100vw;
+}
+ul,li{
+  display: inline;
+}
+ul{
+  margin-left: 264px;
+}
+nav ul li a{
+  margin-left: 32px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  color: white; 
+}
+
+.brand-logo{
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-left: 13px;
+  color:hsl(283.33,76.6%,63.14%);
+  font-family: "Raleway", sans-serif;
+}
+nav li a:hover{
+  text-decoration: none;
+  color: #84ff00;
+  transition: all 0.5s;
+}
+.fa-brands{
+  font-size: 23px;
+  margin-left: -20px;
+  color: #a0a0a0;
+}
+.fa-brands:hover{
+  color: #ff0000;
+  transition: all 0.5s;
+}
+.vline{
+  margin-left: 10px;
+  color: #a0a0a0;
+}
+.icons a{
+  margin-left: 35px;
+}
+
+footer{
+  margin-top: 80px;
+  height: 70px;
+  /* border: 2px solid red; */
+  background-color: hsl(260,69.23%,5.1%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  gap: 580px;
+  /* padding-top: 20px; */
+  font-size: 19.5px;
+}
+
+.skillHead{
+  margin-top: 160px;
+  margin-left: 514px;
+}
+
+.toolHead{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 560px;
+}
+
+.skillCards{
+  /* border: 2px solid green; */
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.skill{
+  border: 2px solid hsl(278.64,25.32%,45.69%);
+  border-radius: 15px;
+  width: 200px;height: 150px;
+  margin-left: 90px;
+  box-shadow: 1px 1px 3px 0.1px hsl(278.64,25.32%,45.69%);
+  transition: all 0.9s;
+}
+.skill svg{
+  width: 150px;
+  padding: 50px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.skill:hover{
+  border-color: hsl(279, 32%, 68%);
+  transform: scale(1.08) ;
+}
+
+.skill img{
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
+.contribution img{
+  margin-left: 250px;
+}
