@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+  font-family: sans-serif;
 }
 
 body{
@@ -76,8 +77,9 @@ nav li a:hover{
 }
 
 .myImage img{
-  width: 350px;
+  width: 650px;
   margin-top: 80px;
+  margin-left: -127px;
 }
 
 .myIntro{
@@ -95,7 +97,7 @@ nav li a:hover{
   justify-content: center;
   /* align-items: center; */
   row-gap: 10px;
-  margin-left: 10px;
+  margin-left: -269px;
 }
 .briefP{
   font-size: 18px;
@@ -140,8 +142,8 @@ nav li a:hover{
   flex-direction: column;
   justify-content: center;
   padding-left: 90px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 66px;
+  padding-bottom: 65px;
   gap: 30px;
   border-radius: 15px;
   background-color: hsl(260,35.59%,11.57%);
@@ -160,7 +162,7 @@ nav li a:hover{
 }
 
 .about_me p{
-  font-size: 20px;
+  font-size: 19px;
   font-weight: bolder;
   font-weight:lighter;
   text-align: justify;
