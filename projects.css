@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+  font-family: sans-serif;
 
   span{
     color:hsl(283.33,76.6%,63.14%);
@@ -64,12 +65,16 @@ nav li a:hover{
   color: #84ff00;
   transition: all 0.5s;
 }
-.fa-brands{
+.fa-brands,.fa-solid{
   font-size: 23px;
   margin-left: -20px;
   color: #a0a0a0;
 }
 .fa-brands:hover{
+  color: #ff0000;
+  transition: all 0.5s;
+}
+.fa-solid:hover{
   color: #ff0000;
   transition: all 0.5s;
 }
@@ -80,6 +85,56 @@ nav li a:hover{
 .icons a{
   margin-left: 35px;
 }
+
+.skillHead{
+  margin-top: 160px;
+  margin-left: 596px;
+}
+
+.skillCards{
+  /* border: 2px solid green; */
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.skill{
+  border: 2px solid hsl(278.64,25.32%,45.69%);
+  border-radius: 15px;
+  width: 300px;
+  margin-left: 90px;
+  box-shadow: 1px 1px 3px 0.1px hsl(278.64,25.32%,45.69%);
+  transition: all 0.9s;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 20px;
+}
+.skill svg{
+  width: 150px;
+  padding: 50px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.skill:hover{
+  border-color: hsl(278, 78%, 82%);
+  transform: scale(1.05) ;
+}
+
+.skill img{
+  width: 150px;
+  margin-top: 8px;
+  margin-left: 86px;
+}
+
+.contribution img{
+  margin-left: 250px;
+}
+
 
 footer{
   margin-top: 80px;
@@ -98,51 +153,77 @@ footer{
   font-size: 19.5px;
 }
 
-.skillHead{
-  margin-top: 160px;
-  margin-left: 514px;
+.image{
+  /* border: 2px solid red; */
+  margin-left: -13px;
 }
 
-.toolHead{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 560px;
-}
-
-.skillCards{
+.content{
   /* border: 2px solid green; */
-  margin-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.skill{
-  border: 2px solid hsl(278.64,25.32%,45.69%);
-  border-radius: 15px;
-  width: 200px;height: 150px;
-  margin-left: 90px;
-  box-shadow: 1px 1px 3px 0.1px hsl(278.64,25.32%,45.69%);
-  transition: all 0.9s;
-}
-.skill svg{
-  width: 150px;
-  padding: 50px;
+  width: 260px;
   margin-left: 20px;
-  margin-top: -10px;
 }
 
-.skill:hover{
-  border-color: hsl(278, 78%, 82%);
-  transform: scale(1.15) ;
+.content p{
+  font-size: 18px;
+  word-spacing: 1.5px;
+  text-align: justify;
 }
 
-.skill img{
-  margin-top: 20px;
-  margin-left: 45px;
+.content h2{
+  text-align: center;
+  padding-bottom: 10px;
 }
 
-.contribution img{
-  margin-left: 250px;
+.buttons{
+  /* border: 2px solid red; */
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.buttons button{
+  /* border: 2px solid yellow; */
+  background-color: rgb(6, 171, 50);
+  border-radius: 15px;
+  height: 35px;
+  display: flex;
+  gap: 20px;
+  padding-top: 3px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.buttons button i{
+  margin-left: 10px;
+}
+
+.buttons p{
+  font-size: 19px;
+  padding-right: 10px;
+}
+
+/* .buttons:hover>button{
+  background-color: #84ff00;
+
+} */
+
+button:hover>p{
+  color: #4f0183;
+} 
+
+button:hover>i{
+  color: #4f0183;
+}
+
+.buttons.fa-brands:hover{
+  color: #4f0183;
+  transition: all 0.5s;
+}
+
+button{
+  border-color: transparent;
 }
