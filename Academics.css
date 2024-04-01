@@ -80,6 +80,42 @@ nav li a:hover{
   margin-left: 35px;
 }
 
+.contentHead{
+  /* border: 2px solid red; */
+  margin-top: 150px;
+  word-spacing: 1.5px;
+}
+.contentHead h1{
+  margin-left: 580px;
+}
+.contentHead h2{
+  margin-left: 380px;
+  margin-top: 20px;
+}
+
+.content{
+  /* border: 2px solid blue; */
+  margin-top: 60px;
+  display: flex;
+}
+
+.content img{
+  /* border: 2px solid green; */
+  width: 450px;
+  margin-top: -63px;
+}
+
+.content p{
+  font-size: 23px;
+}
+.para{
+  /* border: 2px solid yellow; */
+}
+
+.contentP{
+  margin-left: 50px;
+}
+
 footer{
   margin-top: 80px;
   height: 70px;
@@ -95,53 +131,4 @@ footer{
   gap: 580px;
   /* padding-top: 20px; */
   font-size: 19.5px;
-}
-
-.skillHead{
-  margin-top: 160px;
-  margin-left: 514px;
-}
-
-.toolHead{
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 560px;
-}
-
-.skillCards{
-  /* border: 2px solid green; */
-  margin-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.skill{
-  border: 2px solid hsl(278.64,25.32%,45.69%);
-  border-radius: 15px;
-  width: 200px;height: 150px;
-  margin-left: 90px;
-  box-shadow: 1px 1px 3px 0.1px hsl(278.64,25.32%,45.69%);
-  transition: all 0.9s;
-}
-.skill svg{
-  width: 150px;
-  padding: 50px;
-  margin-left: 20px;
-  margin-top: -10px;
-}
-
-.skill:hover{
-  border-color: hsl(278, 78%, 82%);
-  transform: scale(1.15) ;
-}
-
-.skill img{
-  margin-top: 20px;
-  margin-left: 45px;
-}
-
-.contribution img{
-  margin-left: 250px;
 }

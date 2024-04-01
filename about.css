@@ -142,3 +142,20 @@ nav li a:hover{
   gap: 15px;
   width: 553px;
 }
+
+footer{
+  margin-top: 80px;
+  height: 70px;
+  /* border: 2px solid red; */
+  background-color: hsl(260,69.23%,5.1%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer{
+  display: flex;
+  gap: 580px;
+  /* padding-top: 20px; */
+  font-size: 19.5px;
+}

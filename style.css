@@ -4,6 +4,11 @@
   box-sizing: border-box;
   color: white;
   font-family: sans-serif;
+
+  span{
+    color:hsl(283.33,76.6%,63.14%);
+  }
+
 }
 
 body{
@@ -84,7 +89,7 @@ nav li a:hover{
 
 .myIntro{
   /* border: 2px solid red; */
-  margin-top: -28px;
+  margin-top: -106px;
   display: flex;
   column-gap: 80px;
   justify-content: center;
