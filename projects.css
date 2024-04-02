@@ -271,3 +271,15 @@ button{
 .liveIcon{
   font-size: 20.5px;
 }
+
+#skillBtn{
+  padding-top: 44px;
+}
+
+#kellyBtn,#resBtn{
+  padding-top: 22px;
+}
+
+#calciBtn{
+  padding-top: 22px;
+}
