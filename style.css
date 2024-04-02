@@ -223,3 +223,161 @@ footer{
   60%,100%{transform:scaleX(var(--s,1)) rotate(30deg);clip-path:inset(40% 0 0)}
 } */
 
+
+@media screen and (width:320px){
+  
+  nav{
+    /* border: 2px solid red;  */
+    background-color: hsl(260,69.23%,5.1%);
+    padding-top: 2px;
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 100vw;
+    z-index: 2;
+  }
+
+  ul {
+    margin-left: 0px;
+}
+
+.brand-logo {
+  display: none;
+}
+
+nav ul li a {
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: 8px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.welcomeBtn a {
+  background-color: hsl(28, 100%, 52%);
+  height: 23px;
+  width: 132px;
+  border-radius: 0px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 111px;
+  margin-left: 80px;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.fa-brands{
+  font-size: 12px;
+  margin-left: -28px;
+  color: #a0a0a0;
+}
+
+.myIntro {
+    /* border: 2px solid red; */
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.myImage img {
+  display: none;
+}
+
+.intro {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    margin-left: -11px;
+}
+
+.hii {
+  font-size: 8px;
+  margin-left: -27px;
+}
+
+.intro h1 {
+  font-size: 15px;
+  color: hsl(283.33, 76.6%, 63.14%);
+}
+
+.role {
+  font-size: 11px;
+  font-weight: bolder;
+  color: rgb(234, 164, 200);
+  letter-spacing: 2px;
+}
+
+.briefP {
+  font-size: 9.5px;
+  font-weight: lighter;
+  margin-top: 4px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  margin-left: 25px;
+}
+
+.about_me {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  row-gap: 5px;
+  border-radius: 15px;
+  background-color: hsl(260, 35.59%, 11.57%);
+  box-shadow: 6px 0px 10px 1px rgb(83, 83, 198);
+}
+
+.about_me h1 {
+  padding-top: 0px;
+  font-size: 12px;
+  text-shadow: 3px 3px 2px rgb(5, 0, 6);
+  text-align: center;
+}
+
+.about_me h1 span{
+  font-size: 12px;
+}
+
+.about_me p {
+  font-size: 9px;
+  font-weight: bolder;
+  font-weight: lighter;
+  text-align: justify;
+  text-shadow: 3px 3px 2px rgb(5, 0, 6);
+}
+
+.about_me  p span{
+  font-size: 9px;
+}
+
+footer {
+  margin-top: 177px;
+  height: 40px;
+  /* border: 2px solid red; */
+  background-color: hsl(260, 69.23%, 5.1%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  display: flex;
+  gap: 5px;
+  /* padding-top: 20px; */
+  font-size: 11px;
+}
+
+.about{
+  margin-top: 30px;
+}
+}
