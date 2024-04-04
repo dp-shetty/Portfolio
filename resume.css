@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+  font-family: sans-serif;
 
   span{
     color:hsl(283.33,76.6%,63.14%);
@@ -81,67 +82,13 @@ nav li a:hover{
   margin-left: 35px;
 }
 
-.content{
-  /* border: 2px solid red; */
-  margin-top: 240px;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 180px;
-}
-
-.content1{
-  /* border: 2px solid green; */
-  width: 500px;
-  margin-left: 73px;
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
-  gap: 10px;
-  font-size: 20px;
-  padding-bottom: 20px;
-}
-
-.para1{
-  text-align: justify;
-}
-
-.content1 h1{
-  text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-
-
-.imageContent img{
-  width: 550px;
-}
-.sw{
-  display: flex;
-
-}
-.str{
-  /* border: 2px solid yellow; */
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  font-size: 20px;
-  margin-left: 80px;
-  margin-top: 30px;
-}
-
-.weak{
-  /* border: 2px solid yellow; */
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-top: 30px;
-  font-size: 20px;
-  margin-left: 30px;
-  gap: 15px;
-  width: 553px;
+embed{
+  width:850px;height: 1120px;
+  padding: 3px;
+  margin-top: 170px;
+  margin-left: 220px;
+  box-shadow: 0.2px 0.5px 2px 6px rgb(6, 17, 101);
+  border-radius: 15px;
 }
 
 footer{
