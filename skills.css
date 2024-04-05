@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+  font-family: sans-serif;
 
   span{
     color:hsl(283.33,76.6%,63.14%);

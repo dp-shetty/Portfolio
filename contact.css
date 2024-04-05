@@ -8,6 +8,14 @@
   span{
     color:hsl(283.33,76.6%,63.14%);
   }
+  .git a:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer; 
+    color: black;  
+}
+/* .git a:hover #l1,.git a:hover #l2,.git a:hover #l3,.git a:hover #l4,.git a:hover #l5{
+    color: black;
+} */
 
 }
 
@@ -82,41 +90,83 @@ nav li a:hover{
   margin-left: 35px;
 }
 
-.contentHead{
-  /* border: 2px solid red; */
-  margin-top: 150px;
-  word-spacing: 1.5px;
-}
-.contentHead h1{
-  margin-left: 580px;
-}
-.contentHead h2{
-  margin-left: 380px;
-  margin-top: 20px;
-}
 
-.content{
+.card{
+  border: 2px solid transparent;
+  width: 400px;
+  margin-left: 460px;
+  margin-top: 50px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 11px;
+  box-shadow: 0.2px 0.2px 0px 1px blue;
+}
+.image{
+  width: 70px;height: 70px;
   /* border: 2px solid blue; */
-  margin-top: 60px;
-  display: flex;
+  margin-left: 160px;
+  margin-top: 40px;
 }
-
-.content img{
+img{
+  width: 70px;height: 70px;
+  border-radius: 100%;
+  /* margin-left: 125px; */
+}
+.content{
   /* border: 2px solid green; */
-  width: 450px;
-  margin-top: -63px;
+  width: 400px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
-
-.content p{
-  font-size: 23px;
+.content h2{
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 8px;
+  color:hsl(0, 0%, 100%);
 }
-.para{
+.content .p1{
+  font-weight: bold;
+  font-size: 14.5px;
+  padding-bottom: 18px;
+  color: hsl(75, 94%, 57%);
+}
+.content .p2{
+  font-weight: 250;
+  font-size: 14.5px;
+  text-align: center;
+  color:hsl(0, 0%, 100%);
+}
+.profiles{
   /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.git a{
+  /* border: 2px solid blue; */
+  border-radius: 8px;
+  margin-top: 20px;
+  /* margin-bottom: 15px; */
+  width: 300px; height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 20%);
+}
+.git a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  color:hsl(0, 0%, 100%);
 }
 
-.contentP{
-  margin-left: 50px;
-}
 
 footer{
   margin-top: 80px;
@@ -133,4 +183,9 @@ footer{
   gap: 580px;
   /* padding-top: 20px; */
   font-size: 19.5px;
+}
+
+.head{
+  margin-top: 180px;
+  margin-left: 495px;
 }
